@@ -1,7 +1,7 @@
 export const BUSINESS = {
   name: 'The Woof House',
   owner: 'Ankit Panwar',
-  tagline: 'Raising and caring for furry companions since 2011',
+  tagline: 'Raising and caring your furry companions since 2011',
   phone: '+919568333393',
   phoneDisplay: '+91 95683 33393',
   whatsapp: '919568333393',
