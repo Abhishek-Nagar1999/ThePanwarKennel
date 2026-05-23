@@ -1,3 +1,9 @@
+import labradorPuppy from '../assets/Labrador-puppy.jpeg';
+import goldenRetrieverPuppy from '../assets/Golden-retriever-puppy.jpeg';
+import germanShepherdPuppy from '../assets/German-shephard-puppy.jpeg';
+import beaglePuppy from '../assets/Beagle-puppy.jpeg';
+import rottweilerPuppy from '../assets/Rottweiler-puppy.jpeg';
+
 // Local puppy images — young pups matching listed ages (8–11 weeks)
 export const puppies = [
   {
@@ -6,7 +12,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Friendly, intelligent Labrador puppies — perfect family companions. Home-raised with early socialisation.',
-    image: '/images/puppies/labrador.jpg',
+    image: labradorPuppy,
     alt: '5-6 week old Labrador puppy in Delhi — The Woof House',
   },
   {
@@ -15,7 +21,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Gentle Golden Retriever puppies with golden coats and loving temperaments. Ideal for homes with children.',
-    image: '/images/puppies/golden-retriever.jpg',
+    image: goldenRetrieverPuppy,
     alt: '5-6 week old Golden Retriever puppy Delhi — The Woof House',
   },
   {
@@ -24,7 +30,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Loyal and intelligent German Shepherd puppies. Strong bloodline, vet-checked and well-socialised.',
-    image: '/images/puppies/german-shepherd.jpg',
+    image: germanShepherdPuppy,
     alt: '6-7 week old German Shepherd puppy for sale Delhi NCR',
   },
   {
@@ -60,7 +66,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Curious, merry Beagle puppies with expressive eyes. Wonderful family dogs with gentle nature.',
-    image: '/images/puppies/beagle.jpg',
+    image: beaglePuppy,
     alt: '4–6 week old Beagle puppy for sale Delhi NCR',
   },
   {
@@ -69,7 +75,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Confident Rottweiler puppies — loyal guardians with calm temperament when raised with care.',
-    image: '/images/puppies/rottweiler.jpg',
+    image: rottweilerPuppy,
     alt: '4–6 week old Rottweiler puppy Delhi — The Woof House',
   },
 ];
