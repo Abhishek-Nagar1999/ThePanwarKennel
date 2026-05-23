@@ -7,6 +7,7 @@ export default function Hero() {
       <div className="container hero__grid">
         <div className="hero__content">
           <p className="hero__eyebrow">Delhi&apos;s Trusted Dog Kennel · {BUSINESS.owner}</p>
+          <p className="hero__tagline">{BUSINESS.tagline}</p>
           <h1 className="hero__title">
             Puppies in Delhi &amp; Dogs in Delhi NCR — All Breeds Available
           </h1>

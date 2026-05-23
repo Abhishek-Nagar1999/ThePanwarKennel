@@ -347,7 +347,14 @@ ul {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-gold-dark);
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+}
+
+.hero__tagline {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  color: var(--color-text-muted);
 }
 
 .hero__title {
