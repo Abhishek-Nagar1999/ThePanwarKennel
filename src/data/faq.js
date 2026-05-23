@@ -1,8 +1,8 @@
 export const faqItems = [
   {
-    question: 'Where is The Panwar Kennel located in Delhi?',
+    question: 'Where is The Woof House located in Delhi?',
     answer:
-      'The Panwar Kennel is a family-run dog kennel in Delhi, owned by Ankit Panwar. We serve all of Delhi NCR including Gurgaon, Noida, Faridabad, and Ghaziabad. Visit by appointment or enquire on WhatsApp at 95683 33393.',
+      'The Woof House is a family-run dog kennel in Delhi, owned by Ankit Panwar. We serve all of Delhi NCR including Gurgaon, Noida, Faridabad, and Ghaziabad. Visit by appointment or enquire on WhatsApp at 95683 33393.',
   },
   {
     question: 'Do you deal in all types of puppies and dogs?',

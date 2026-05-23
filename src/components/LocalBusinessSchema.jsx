@@ -10,7 +10,7 @@ export default function LocalBusinessSchema() {
       name: BUSINESS.owner,
     },
     description:
-      'The Panwar Kennel in Delhi — all breeds of healthy, vaccinated, KCI registered pure breed puppies and dogs. Owned by Ankit Panwar. Labrador, Golden Retriever, German Shepherd, Husky, Pomeranian, Beagle and more. Puppies for sale Delhi NCR.',
+      'The Woof House in Delhi — all breeds of healthy, vaccinated, KCI registered pure breed puppies and dogs. Owned by Ankit Panwar. Labrador puppies in Delhi, Golden Retrievers, German Shepherds, Huskies, Pomeranians, Beagles and more. Puppies for sale Delhi NCR.',
     url: typeof window !== 'undefined' ? window.location.origin : '',
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
@@ -20,10 +20,16 @@ export default function LocalBusinessSchema() {
       addressRegion: 'Delhi',
       addressCountry: 'IN',
     },
-    areaServed: BUSINESS.serviceAreas.map((area) => ({
-      '@type': 'City',
-      name: area,
-    })),
+    areaServed: [
+      ...BUSINESS.serviceAreas.map((area) => ({
+        '@type': 'City',
+        name: area,
+      })),
+      {
+        '@type': 'City',
+        name: 'Delhi NCR',
+      },
+    ],
     priceRange: '₹₹',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
@@ -51,15 +57,15 @@ export default function LocalBusinessSchema() {
         name: 'Do you deal in all types of puppies and dogs?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. The Panwar Kennel deals in all types of pure breed puppies and dogs across Delhi NCR. Contact Ankit Panwar on WhatsApp at 9568333393.',
+          text: 'Yes. The Woof House deals in all types of pure breed puppies and dogs across Delhi NCR. Contact Ankit Panwar on WhatsApp at 9568333393.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Where is The Panwar Kennel located in Delhi?',
+        name: 'Where is The Woof House located in Delhi?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The Panwar Kennel is based in Delhi, serving all of Delhi NCR including Gurgaon, Noida, Faridabad, and Ghaziabad.',
+          text: 'The Woof House is based in Delhi, serving all of Delhi NCR including Gurgaon, Noida, Faridabad, and Ghaziabad.',
         },
       },
       {

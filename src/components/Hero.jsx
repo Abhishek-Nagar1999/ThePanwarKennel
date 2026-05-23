@@ -8,12 +8,12 @@ export default function Hero() {
         <div className="hero__content">
           <p className="hero__eyebrow">Delhi&apos;s Trusted Dog Kennel · {BUSINESS.owner}</p>
           <h1 className="hero__title">
-            Healthy Puppies &amp; Dogs — All Breeds in Delhi
+            Puppies in Delhi &amp; Dogs in Delhi NCR — All Breeds Available
           </h1>
           <p className="hero__subtitle">
-            {BUSINESS.name} offers all types of pure breed puppies and dogs —
-            vaccinated, home-raised, and ethically bred. Labrador, Golden Retriever,
-            German Shepherd, Husky, and many more across Delhi NCR.
+            {BUSINESS.name} is a trusted Delhi dog kennel offering puppies in Delhi,
+            Labrador puppies in Delhi, and healthy family-ready dogs across Delhi NCR.
+            Vaccinated, home-raised, KCI registered puppies for sale in Delhi.
           </p>
           <div className="hero__cta">
             <a href="#puppies" className="btn btn--primary">

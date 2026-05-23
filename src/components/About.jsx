@@ -34,10 +34,10 @@ export default function About() {
             Delhi NCR find their perfect companion.
           </p>
           <p className="about__text">
-            We deal in <strong>all types of puppies and dogs</strong> — not limited
-            to one or two breeds. Whether you want a Labrador, Golden Retriever,
-            German Shepherd, Husky, Pomeranian, Beagle, or any other pure breed,
-            Ankit Panwar will guide you with honesty and care.
+            We deal in <strong>puppies in Delhi</strong> and <strong>dogs in Delhi</strong>
+            — not limited to one or two breeds. Whether you want Labrador puppies in
+            Delhi, Golden Retrievers, German Shepherds, Huskies, Pomeranians, Beagles,
+            or any other pure breed, Ankit Panwar will guide you with honesty and care.
           </p>
           <p className="about__text">
             Every puppy receives proper nutrition, early socialisation, full

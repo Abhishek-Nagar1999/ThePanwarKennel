@@ -1,4 +1,4 @@
-# The Panwar Kennel — Premium Dog Kennel Website
+# The Woof House — Premium Dog Kennel Website
 
 A modern, mobile-first React website for a dog kennel and puppy business in Delhi, India.
 

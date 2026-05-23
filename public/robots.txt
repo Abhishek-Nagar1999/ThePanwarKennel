@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: /sitemap.xml
+# If you want to disallow any paths, add lines like:
+# Disallow: /private/
