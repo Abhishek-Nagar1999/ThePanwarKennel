@@ -1,5 +1,5 @@
 export const BUSINESS = {
-  name: 'The Panwar Kennel',
+  name: 'The Woof House',
   owner: 'Ankit Panwar',
   tagline: 'All Breeds — Premium Puppies & Dogs in Delhi',
   phone: '+919568333393',

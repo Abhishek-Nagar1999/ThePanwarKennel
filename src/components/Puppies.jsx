@@ -46,15 +46,11 @@ export default function Puppies() {
                   loading="lazy"
                 />
                 <div className="puppy-card__badges">
-                  <span className="puppy-card__badge puppy-card__badge--age">{puppy.ageLabel}</span>
                   <span className="puppy-card__badge puppy-card__badge--vax">{puppy.vaccinated}</span>
                 </div>
               </div>
               <div className="puppy-card__body">
                 <h3 className="puppy-card__breed">{puppy.breed}</h3>
-                <p className="puppy-card__meta">
-                  <span>Age: {puppy.age}</span>
-                </p>
                 <p className="puppy-card__desc">{puppy.description}</p>
                 <a
                   href={whatsappUrl(

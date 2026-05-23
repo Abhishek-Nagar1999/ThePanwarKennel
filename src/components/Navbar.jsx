@@ -51,7 +51,7 @@ export default function Navbar() {
             </span>
             <span className="navbar__logo-text">
               <span className="navbar__logo-full">{BUSINESS.name}</span>
-              <span className="navbar__logo-short">The Panwar Kennel</span>
+              <span className="navbar__logo-short">{BUSINESS.name}</span>
             </span>
           </a>
 
