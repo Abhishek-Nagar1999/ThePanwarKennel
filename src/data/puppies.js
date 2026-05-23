@@ -6,7 +6,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Friendly, intelligent Labrador puppies — perfect family companions. Home-raised with early socialisation.',
-    image: 'src/assets/Labrador-puppy.jpeg',
+    image: '/images/puppies/labrador.jpg',
     alt: '5-6 week old Labrador puppy in Delhi — The Woof House',
   },
   {
@@ -15,7 +15,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Gentle Golden Retriever puppies with golden coats and loving temperaments. Ideal for homes with children.',
-    image: 'src/assets/Golden-retriever-puppy.jpeg',
+    image: '/images/puppies/golden-retriever.jpg',
     alt: '5-6 week old Golden Retriever puppy Delhi — The Woof House',
   },
   {
@@ -24,7 +24,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Loyal and intelligent German Shepherd puppies. Strong bloodline, vet-checked and well-socialised.',
-    image: 'src/assets/German-shephard-puppy.jpeg',
+    image: '/images/puppies/german-shepherd.jpg',
     alt: '6-7 week old German Shepherd puppy for sale Delhi NCR',
   },
   {
@@ -60,7 +60,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Curious, merry Beagle puppies with expressive eyes. Wonderful family dogs with gentle nature.',
-    image: 'src/assets/Beagle-puppy.jpeg',
+    image: '/images/puppies/beagle.jpg',
     alt: '4–6 week old Beagle puppy for sale Delhi NCR',
   },
   {
@@ -69,7 +69,7 @@ export const puppies = [
     vaccinated: 'Fully vaccinated',
     description:
       'Confident Rottweiler puppies — loyal guardians with calm temperament when raised with care.',
-    image: 'src/assets/Rottweiler-puppy.jpeg',
+    image: '/images/puppies/rottweiler.jpg',
     alt: '4–6 week old Rottweiler puppy Delhi — The Woof House',
   },
 ];
